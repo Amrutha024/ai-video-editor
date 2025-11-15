@@ -337,7 +337,7 @@ if uploaded_file is not None:
 # --- 5. RESULTS DISPLAY ---
 
 if st.session_state.processing_done:
-    st.markdown("## Processing Results", anchor="results")
+    st.markdown("## Processing Results")
     st.markdown("---")
     
     col_results1, col_results2 = st.columns(2)
@@ -404,3 +404,4 @@ st.markdown(
     </div>
     """, unsafe_allow_html=True
 )
+# Final deployment check
